@@ -13,7 +13,7 @@ find_package(SFML COMPONENTS Network Graphics Window Audio System CONFIG REQUIRE
 file(GLOB ASSETS
     "${CMAKE_CURRENT_SOURCE_DIR}/Assets/*.png"
     "${CMAKE_CURRENT_SOURCE_DIR}/Assets/*.jpg"
-    "${CMAKE_CURRENT_SOURCE_DIR}/verdana.ttf"
+    "${CMAKE_CURRENT_SOURCE_DIR}/Assets/verdana.ttf"
 )
 file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS
     "*.cpp"
